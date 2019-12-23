@@ -1,0 +1,23 @@
+html {
+  background-color:black;
+  color:white;
+}
+
+ .classic {
+  background: rgb(12, 214, 12);
+  color:black;
+  font-size: 14px;
+  font-weight:bold;
+  padding:6px;
+  border: none;
+  border-radius: 3px;
+}
+
+.alternate {
+  background: rgb(110, 106, 106);
+  color:white;
+  font-size: 14px;
+  padding: 7px;
+  border:none;
+  border-radius: 3px;
+}
