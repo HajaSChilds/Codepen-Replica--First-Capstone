@@ -4,6 +4,7 @@ html {
   line-height: 1.5;
   font-weight:400;
   color:#C7C9D3;
+  margin:0px;
 }
 
 strong {
@@ -20,23 +21,48 @@ h1,h2,h3,h4,h5 {
 
 header {
   display:flex;
-  justify-content:space-around;
   flex-wrap:nowrap;
+  width:100%;
 }
 
 .searchbar input {
   background-color:#252830;
+  display:inline-block;
   border: none;
   border-radius: 4px;
   color:#C7C9D3;
   font-weight: bold;
   font-size:20px;
-  padding:4px;
-  margin:0px 8px;
+  padding:4px 8px;
+  margin:0px 16px;
+}
+
+nav {
+  background:#2C303A;
+  width:200px;
+  height:100%;
+  position:fixed;
+  margin:0px;
+
+}
+
+main {
+  margin-left:200px;
 }
 
 
 /* Buttons*/
+
+ .try-button {
+   background:black;
+   color:white;
+   border: solid 3px;
+   border-radius:8px;
+   padding:10px;
+   font-size:16px;
+   border-image:   linear-gradient(to right,green 25%, yellow 25%, purple 50%, blue 75%, teal 75%) 5;
+}
+ 
 
  .classic {
   background:#2FB45A;
@@ -59,16 +85,34 @@ header {
 }
 
 
-
-/* Body*/
+/*Body*/
 a {
   text-decoration: none;
   color:#76daff;
 }
 
+.showcase1 {
+  display:flex;
+  justify-content:space-between;
+}
+
+ .main-message {
+  margin-right:75px;
+  margin-left:30px;
+  order: -1;
+  width:50%;
+}
+
+.trio-boxes {
+  display:flex;
+  justify-content:space-between;
+  min-height:400px;
+}
+
 .trio-box {
   background-color:#2C303A;
-  margin: 40px 0px;
-  border-radius:4px;
+  margin: 40px 20px;
+  border-radius:8px;
   padding: 20px;
+  width:30%;
 }
