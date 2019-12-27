@@ -38,16 +38,45 @@ header {
 }
 
 nav {
-  background:#2C303A;
+  background:#1E1F26;
   width:200px;
   height:100%;
   position:fixed;
-  margin:0px;
+  margin-left: 0px;
+  text-align:center;
+}
+img {
+  width:200px;
+  position:-1;
+}
 
+nav p {
+  margin-bottom:1px;
+  font-size:12px;
+}
+
+nav ul {
+  text-align:left;
+  list-style:none;
+  color:white;
+}
+
+nav a {
+  color:white;
+}
+
+nav li:hover {
+  background:black;
+  margin-left:0px;
+  width:100%;
+}
+
+.extra-menu a {
+  color:#C7C9D3;
 }
 
 main {
-  margin-left:200px;
+  margin-left:220px;
 }
 
 
@@ -58,12 +87,12 @@ main {
    color:white;
    border: solid 3px;
    border-radius:8px;
-   padding:10px;
+   padding:10px 20px;
    font-size:16px;
    border-image:   linear-gradient(to right,green 25%, yellow 25%, purple 50%, blue 75%, teal 75%) 5;
+   margin-top:-1px;
 }
  
-
  .classic {
   background:#2FB45A;
   color:black;
@@ -86,6 +115,7 @@ main {
 
 
 /*Body*/
+
 a {
   text-decoration: none;
   color:#76daff;
