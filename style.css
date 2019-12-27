@@ -1,23 +1,74 @@
 html {
   background-color:black;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-weight:400;
+  color:#C7C9D3;
+}
+
+strong {
   color:white;
 }
 
+h1,h2,h3,h4,h5 {
+  color: white;
+  font-family: 'Tahoma', sans-serif;
+  font-weight:900;
+}
+
+/*navigation */
+
+header {
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:nowrap;
+}
+
+.searchbar input {
+  background-color:#252830;
+  border: none;
+  border-radius: 4px;
+  color:#C7C9D3;
+  font-weight: bold;
+  font-size:20px;
+  padding:4px;
+  margin:0px 8px;
+}
+
+
+/* Buttons*/
+
  .classic {
-  background: rgb(12, 214, 12);
+  background:#2FB45A;
   color:black;
-  font-size: 14px;
+  font-size: 16px;
   font-weight:bold;
-  padding:6px;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif; 
+  padding:8px;
   border: none;
   border-radius: 3px;
 }
 
 .alternate {
-  background: rgb(110, 106, 106);
+  background: rgb(82, 79, 79);
   color:white;
   font-size: 14px;
-  padding: 7px;
+  padding: 10px;
   border:none;
   border-radius: 3px;
+}
+
+
+
+/* Body*/
+a {
+  text-decoration: none;
+  color:#76daff;
+}
+
+.trio-box {
+  background-color:#2C303A;
+  margin: 40px 0px;
+  border-radius:4px;
+  padding: 20px;
 }
