@@ -46,7 +46,7 @@ nav {
   text-align:center;
 }
 img {
-  width:200px;
+  width: 200px;
   position:-1;
 }
 
@@ -78,6 +78,8 @@ nav li:hover {
 main {
   margin-left:220px;
 }
+
+
 
 
 /* Buttons*/
@@ -122,9 +124,17 @@ main {
   border-radius: 4px;
 }
 
+.plain-btn:hover {
+  background-color:white;
+  color:black;
+}
+
 .button-pos {
   text-align:center;
 }
+
+
+
 
 
 /*Body*/
@@ -198,6 +208,23 @@ img {
   min-height: 400px;
 }
 
+.show-and-tell {
+display:flex;
+justify-content: space-evenly;
+margin: 50px 0px;
+flex-wrap:wrap;
+}
+
+.show-and-tell img {
+  margin: 20px 30px;
+  width:25%;
+}
+
+.show-and-tell .teaser {
+  margin: 0px 30px;
+  width:25%;
+}
+
 .library-buttons-container {
   display:flex;
   justify-content:space-between;
@@ -214,9 +241,19 @@ img {
 }
 
 .team-box {
-  background-color:#2C303A;
-  margin:auto;
+  background-color:#1E1F26;
   text-align:center;
   border-radius:6px;
   padding:30px;
+}
+
+.team-box p {
+  width:50%;
+  margin:auto;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.team-box img {
+  width:70%;
 }
