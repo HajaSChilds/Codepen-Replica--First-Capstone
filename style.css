@@ -58,7 +58,6 @@ nav {
   text-align:center;
 }
 
-
 nav .logo {
   height:5%;
   width:5%;
@@ -239,7 +238,7 @@ a:hover,.location:hover, .library-button h3:hover {
 }
 
 
-/* Projects Section */
+/* Body - Projects Section */
 
 .show-and-tell {
 display:flex;
@@ -261,7 +260,7 @@ flex-wrap:wrap;
 
 
 
-/*Libraries and Frameworks Section */
+/* Body - Libraries and Frameworks Section */
 
 .library-buttons-container {
   display:flex;
@@ -290,7 +289,7 @@ flex-wrap:wrap;
  width:100%;
 }
 
-
+/*Body - Companies section */
 
 .team-box {
   background-color:#1E1F26;
@@ -313,7 +312,7 @@ flex-wrap:wrap;
 
 
 
-/* Job Listing Section */
+/* Body - Job Listing Section */
 
 
 
@@ -387,5 +386,14 @@ hr {
   display:flex;
 }
 
+footer {
+  margin:50px 0px 0px 0px;
+  float:right;
+  display:flex;
+  flex-direction:column;
+}
 
+footer img {
+  width:30%;
+}
 
