@@ -116,7 +116,7 @@ main {
 }
  
  .classic {
-  background:#2FB45A;
+  background:#37c062;
   color:black;
   font-size: 16px;
   font-weight:bold;
@@ -124,6 +124,10 @@ main {
   padding:8px;
   border: none;
   border-radius: 3px;
+}
+
+.classic:hover {
+  background:rgb(47, 160, 47);
 }
 
 .alternate {
@@ -387,13 +391,42 @@ hr {
 }
 
 footer {
-  margin:50px 0px 0px 0px;
-  float:right;
+  margin:0px;
   display:flex;
   flex-direction:column;
 }
 
 footer img {
-  width:30%;
+  width:50%;
+}
+
+.bottom-elements {
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+footer em {
+  color:white;
+  background-color:#131417;
+  margin-right:0px;
+}
+
+@media(max-width:1020px) {
+
+.showcase1 img {
+  order:-1;
+  width:100%;
+}
+
+.showcase1 {
+  flex-direction:column;
+}
+
+.main-message {
+  width:100%;
+
+}
+  
 }
 
