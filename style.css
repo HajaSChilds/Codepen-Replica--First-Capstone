@@ -505,10 +505,23 @@ flex-wrap:nowrap;
   width: 100%;
 }
 
+.library-buttons-container {
+  display:grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 30% 30% 30%; 
+  margin-top:40px;
+}
 
 .library-buttons {
-  width:50%;
-  flex-wrap:wrap;
+  margin-top:20px;
+  width:100%;
+  min-height:250px;
+}
+
+.library-button {
+  margin-top:20px;
+  width:100%;
+  min-height:250px;
 }
 
   
