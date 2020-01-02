@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5 {
   font-family: 'Tahoma', sans-serif;
   font-weight:900;
 }
-
+/*** Global Styles Above ******/
 
 
 /*navigation */
@@ -56,6 +56,7 @@ nav {
   position:fixed;
   margin-left: 0px;
   text-align:center;
+  visibility:visible;
 }
 
 nav .logo {
@@ -172,6 +173,22 @@ a:hover,.location:hover, .library-button h3:hover {
   color:white;
 }
 
+.logo-class {
+  display:flex;
+  justify-content:space-around;
+  margin-top:40px;
+}
+
+.logo {
+  width:30%;
+  visibility:visible;
+}
+
+.full-logo {
+  width:70%;
+  visibility:hidden;
+}
+
 .showcase1 {
   display:flex;
   justify-content:space-around;
@@ -242,6 +259,7 @@ a:hover,.location:hover, .library-button h3:hover {
 }
 
 
+
 /* Body - Projects Section */
 
 .show-and-tell {
@@ -292,6 +310,8 @@ flex-wrap:wrap;
 .library-button img {
  width:100%;
 }
+
+
 
 /*Body - Companies section */
 
@@ -394,16 +414,20 @@ footer {
   margin:0px;
   display:flex;
   flex-direction:column;
+  text-align: right;
 }
 
 footer img {
-  width:50%;
+  width:40%;
+  margin:0px;
+  padding:0px;
+  position: 50;
 }
 
 .bottom-elements {
   display:flex;
   justify-content: space-between;
-  
+  margin:0px;
 }
 
 footer em {
@@ -413,6 +437,28 @@ footer em {
 }
 
 @media(max-width:1020px) {
+
+main {
+  margin-left:10px;
+}
+
+nav {
+  background:#1E1F26;
+  width:0px;
+  position:fixed;
+  margin-left: 0px;
+  visibility:hidden;
+}
+
+.logo {
+  width:30%;
+  visibility:hidden;
+}
+
+.full-logo {
+  width:70%;
+  visibility:visible;
+}
 
 .showcase1 img {
   order:-1;
@@ -424,9 +470,47 @@ footer em {
 }
 
 .main-message {
-  width:100%;
-
+  width:80%;
+  text-align:center;
+  margin: 0px 40px;
 }
+
+.trio-boxes {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  margin-top:60px;
+}
+
+.trio-box {
+  width:85%;
+  margin: 20px;
+  border-radius:6px;
+}
+
+.show-and-tell {
+display:flex;
+flex-direction: column;
+margin: 20px;
+flex-wrap:nowrap;
+}
+
+.show-and-tell img {
+  margin: 20px 30px;
+  width:100%;
+}
+
+.show-and-tell .teaser {
+  margin: 0px 30px;
+  width: 100%;
+}
+
+
+.library-buttons {
+  width:50%;
+  flex-wrap:wrap;
+}
+
   
 }
 
